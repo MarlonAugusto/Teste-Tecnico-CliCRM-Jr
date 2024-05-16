@@ -80,7 +80,7 @@ export default function Home() {
           <h3 className="text-xl font-semibold">Funcionalidades</h3>
           <ul className="ul-list-style">
             <li>
-              <span className="emphasis">Tela de CRUD</span>
+              <span className="emphasis font-semibold">Tela de CRUD</span>
               <ul className="ul-list-style">
                 <li>
                   <span className="strong-emphasis">Adicionar Conta</span>:
@@ -101,7 +101,7 @@ export default function Home() {
               </ul>
             </li>
             <li>
-              <span className="emphasis">Tela de Gráficos</span>
+              <span className="emphasis font-semibold">Tela de Gráficos</span>
               <ul className="ul-list-style">
                 <li>
                   <span className="strong-emphasis">Visualização de Receitas</span>:

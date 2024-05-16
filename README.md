@@ -7,8 +7,10 @@ npm create vite@latest
 ```
 <details><summary><h5>Proximos steps da criação</h5></summary>
 
+Escolha a opção: React
 ![image](https://github.com/MarlonAugusto/Teste-Tecnico-CliCRM-Jr/assets/28605009/557af6bd-9370-4dcb-b077-3e8679be3021)
 
+Escolha a opção: Typescript
 ![image](https://github.com/MarlonAugusto/Teste-Tecnico-CliCRM-Jr/assets/28605009/1012dd2f-ff5c-4854-b233-14e09f647c05)
 
 </details>

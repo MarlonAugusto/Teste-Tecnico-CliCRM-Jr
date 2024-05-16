@@ -2,18 +2,16 @@ import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from "rec
 
 interface barChartType {
   data: unknown[];
-  datakey: string;
-  datekey: string;
 }
 const barChart: React.FC<barChartType> = ({ data }) => {
   return (
     <BarChart width={730} height={250} data={data}>
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="nome" />
-      <YAxis />
+      <CartesianGrid strokeDasharray="3 3" stroke="#fff"/>
+      <XAxis dataKey="nome" stroke="#fff"/>
+      <YAxis stroke="#fff"/>
       <Tooltip />
       <Legend />
-      <Bar dataKey="Entradas" fill="#8884d8" />
+      <Bar dataKey="Entradas" fill="#fff" stroke="#fff" barSize={50} />
     </BarChart>
   );
 };

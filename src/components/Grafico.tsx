@@ -24,10 +24,10 @@ export default function Graphics() {
     }, []);
     return (
 
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-700 text-white">
             <h1 className="text-4xl font-bold mb-7 text-center text-white ">Gráficos dos Valores</h1>
-            <div>
-                <BarChart data={data} datakey='valor' datekey='data' />
+            <div >
+                <BarChart data={data}/>
             </div>
         </div>
     );

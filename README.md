@@ -53,4 +53,7 @@ firebase login
 firebase init
 firebase deploy
 ```
-[Firebase do Projeto](https://console.firebase.google.com/u/0/project/teste-tecnico-clincrm/overview)
+
+## Firebase do projeto
+[Console](https://console.firebase.google.com/u/0/project/teste-tecnico-clincrm/overview)
+[Hospedagem](https://teste-tecnico-clincrm.web.app/)

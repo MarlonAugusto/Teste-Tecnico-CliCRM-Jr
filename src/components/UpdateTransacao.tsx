@@ -23,7 +23,7 @@ const schemaConta: ZodType<FormTransacao> = z.object({
   id: z.string(),
   nomePaciente: z.string().min(4).max(50),
   operacaoFeita: z.string().min(3).max(50),
-  valor: z.number().min(1).max(8),
+  valor: z.number().min(1).max(120000),
   formaPagamento: z.string().min(3).max(50),
 });
 

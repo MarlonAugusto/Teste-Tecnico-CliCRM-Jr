@@ -1,10 +1,10 @@
-import Graficos from "../../components/Grafico";
+import Graphics from "../../components/Grafico";
 
 export default function Grafico() {
  
     return(
         <>
-        <Graficos />
+        <Graphics />
         </>
     )
 }

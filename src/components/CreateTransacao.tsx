@@ -16,7 +16,7 @@ type FormTransacao = {
 const schemaConta: ZodType<FormTransacao> = z.object({
   nomePaciente: z.string().min(4).max(50),
   operacaoFeita: z.string().min(3).max(50),
-  valor: z.number().min(1),
+  valor: z.number().min(1).max(8),
   formaPagamento: z.string().min(3).max(50),
   dataEmissao: z.date(),
 });
